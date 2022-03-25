@@ -14,6 +14,8 @@
 
 ![search](./env.img/3.png)
 
+<div style="page-break-before:always"></div>
+
 4. 「新規」ボタンをクリックし、以下の2行を追加
    1. C:\xampp\mysql\bin
    2. C:\xampp\php
