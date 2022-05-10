@@ -13,5 +13,7 @@ PHP/WordPressの授業の情報展開用のリポジトリです
   - [ダウングレードする方法](https://kinsta.com/jp/blog/downgrade-wordpress/)
   - [自動更新を停止する方法](https://otamunote.com/wordpress-update-stop/)
   - [the_archive_titleの「カテゴリー:」や「タグ:」を削除する方法](https://naoyu.net/archive-title-hook/)
+- HTML&CSS
+  - [セレクタの種類](http://www.htmq.com/csskihon/005.shtml)
 - その他
   - [CodingBat code practice](https://codingbat.com/java)
