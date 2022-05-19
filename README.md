@@ -15,5 +15,9 @@ PHP/WordPressの授業の情報展開用のリポジトリです
   - [the_archive_titleの「カテゴリー:」や「タグ:」を削除する方法](https://naoyu.net/archive-title-hook/)
 - HTML&CSS
   - [セレクタの種類](http://www.htmq.com/csskihon/005.shtml)
+- MYSQL関連
+  - [【xammp】mysqlが起動しない時の対処](https://qiita.com/gone0021/items/1240f857776c6bb620b6)
+  - [phpMyAdminのSQL/CSVのエクスポート機能が「失敗 ネットワークエラー」となる時の解決方法](https://www.petitmonte.com/linux/phpmyadmin-failed-network-err.html)
+  - [mysqldumpまとめ](https://qiita.com/PlanetMeron/items/3a41e14607a65bc9b60c)
 - その他
   - [CodingBat code practice](https://codingbat.com/java)
