@@ -13,8 +13,9 @@ PHP/WordPressの授業の情報展開用のリポジトリです
   - [ダウングレードする方法](https://kinsta.com/jp/blog/downgrade-wordpress/)
   - [自動更新を停止する方法](https://otamunote.com/wordpress-update-stop/)
   - [the_archive_titleの「カテゴリー:」や「タグ:」を削除する方法](https://naoyu.net/archive-title-hook/)
-- HTML&CSS
+- HTML&CSS関連
   - [セレクタの種類](http://www.htmq.com/csskihon/005.shtml)
+  - [Bootstraop v4.5](https://getbootstrap.jp/docs/4.5/getting-started/introduction/)
 - MYSQL関連
   - [【xammp】mysqlが起動しない時の対処](https://qiita.com/gone0021/items/1240f857776c6bb620b6)
   - [phpMyAdminのSQL/CSVのエクスポート機能が「失敗 ネットワークエラー」となる時の解決方法](https://www.petitmonte.com/linux/phpmyadmin-failed-network-err.html)
