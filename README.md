@@ -9,6 +9,7 @@ PHP/WordPressの授業の情報展開用のリポジトリです
     - [配列 関数](https://www.php.net/manual/ja/ref.array.php)
     - [PDO(PHP Data Objects)](https://www.php.net/manual/ja/book.pdo.php)
   - [GDライブラリを有効にする方法](https://sologaku.com/wordpress/images-only-full-size/)
+  - [簡単にできる！Visual Studio Code のREST ClientでHTTP接続をテストする！！](https://1kara-hajimeru.com/2020/10/1378/)
 - WordPress関連
   - [関数のリファレンス](http://wpdocs.osdn.jp/%E9%96%A2%E6%95%B0%E3%83%AA%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9)
   - [ダウングレードする方法](https://kinsta.com/jp/blog/downgrade-wordpress/)
