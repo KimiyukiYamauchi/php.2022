@@ -18,6 +18,14 @@ class Q2
      */
     public function monkeyTrouble(bool $aSmile, bool $bSmile) : bool
     {
-        return false;
+    //   if (($aSmile == true && $bSmile == true) ||
+    //         ($aSmile == false && $bSmile == false)) {
+    //           return true;
+    //   } else {
+    //     return false;
+    //   }
+    // }
+
+      return $aSmile == $bSmile ? true : false;
     }
 }

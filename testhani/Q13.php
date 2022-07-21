@@ -17,7 +17,8 @@ class Q13
      */
     public function backAround(String $str) : string
     {
-        return "";
+      $endchar = substr($str, -1);        // 末尾の文字を取得
+      return $endchar . $str . $endchar;
 
     }
 }

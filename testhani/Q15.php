@@ -16,7 +16,13 @@ class Q15
      */
     public function front22(string $str) : string
     {
-        return "";
+      $f2 = $str;
+      
+      if (strlen($str) >= 2) {
+        $f2 = substr($str, 0, 2);
+      }
+
+      return $f2 . $str . $f2;
 
     }
 }

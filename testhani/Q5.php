@@ -18,6 +18,14 @@ class Q5
      */
     public function rrotTrouble(bool $talking, int $hour) : bool
     {
-        return false;
+
+      $ret = false;
+      if ($talking) {
+        // if ($hour < 7 || $hour > 20) {
+        //   $ret = true;
+        // }
+        $ret = $hour < 7 || $hour > 20 ? true : false;
+      }
+      return $ret;
     }
 }

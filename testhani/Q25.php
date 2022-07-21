@@ -18,6 +18,15 @@ class Q25
      */
     public function close10(int $a, int $b) : int
     {
-        return 0;
+        // if (abs($a - 10) < abs($b - 10)) {
+        //   return $a;
+        // } elseif ((abs($a -10) > abs($b -10) ))) {
+        //   return $b;
+        // }
+
+        // return 0;
+
+        return abs($a -10) < abs($b -10) ?
+                $a : (abs($a -10) > abs($b -10)  ? $b : 0);
     }
 }

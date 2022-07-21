@@ -21,6 +21,15 @@ class Q7
      */
     public function nearHundred(int $n) : bool
     {
-        return false;
+      // if (($n >= 90 && $n <= 110) ||
+            // ($n >= 190 && $n <= 210)) {
+      // if ((abs($n - 100) <= 10) ||
+      //       (abs($n - 200) <= 10)) {
+      //   return true;
+      // }
+      // return false;
+
+      return abs($n - 100) <= 10 || abs($n - 200) <= 10 ?
+                true : false;
     }
 }

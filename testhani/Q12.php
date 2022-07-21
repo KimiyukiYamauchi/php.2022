@@ -18,6 +18,17 @@ class Q12
      */
     public function front3(String $str) : string
     {
-        return "";
+      
+      $f3 = $str;
+
+      if (strlen($str) >= 3) {
+        $f3 = substr($str, 0, 3);
+      }
+
+      return$f3 . $f3 . $f3;
+
+      // return strlen($str) >= 3 ?
+      //   substr($str, 0, 3) . substr($str, 0, 3) . substr($str, 0, 3) :
+      //   $str . $str . $str;
     }
 }

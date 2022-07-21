@@ -18,6 +18,26 @@ class Q23
      */
     public function startOz(String $str) : string
     {
-        return "";
+        // if (strpos($str, 'oz') === 0) {
+        //   return 'oz';
+        // } elseif (strpos($str, 'o') === 0) {
+        //   return 'o';
+        // } elseif (strlen($str) >= 2) {
+        //   if (strpos($str, 'z', 1) === 1) {
+        //     return 'z';
+        //   }
+        // }
+
+        $ret = "";
+
+        if (substr($str, 0, 1) == 'o') {
+          $ret = 'o';
+        }
+
+        if (substr($str, 1 , 1) == 'z') {
+          $ret .= 'z';
+        }
+
+        return $ret;
     }
 }

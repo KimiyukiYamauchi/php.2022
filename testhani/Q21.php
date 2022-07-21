@@ -18,6 +18,10 @@ class Q21
      */
     public function delDel(string $str) : string
     {
-        return "";
+      if (strpos($str, 'del') == 1) {
+        $str = str_replace('del', '', $str);
+      }
+      
+      return $str;
     }
 }

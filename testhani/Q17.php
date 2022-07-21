@@ -19,6 +19,13 @@ class Q17
      */
     public function icyHot(int $temp1, int $temp2) : bool
     {
-        return false;
+      // if ($temp1 < 0 && $temp2 > 100 || $temp1 > 100 && $temp2 < 0) {
+      //   return true;
+      // }
+        
+      // return false;
+
+      return $temp1 < 0 and $temp2 > 100
+              or $temp1 > 100 and $temp2 < 0;
     }
 }

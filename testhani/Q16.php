@@ -16,7 +16,12 @@ class Q16
      */
     public function startHi(string $str) : bool
     {
-        return false;
+      // if (str_starts_with($str, 'hi')) {
+      //   return true;
+      // }
+      //   return false;
+
+      return str_starts_with($str, 'hi');
 
     }
 }

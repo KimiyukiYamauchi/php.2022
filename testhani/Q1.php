@@ -18,6 +18,14 @@ class Q1
      */
     public function sleep_in(bool $weekday, bool $vacation) : bool
     {
-        return false;
+        // $ret = false;
+        // if (!$weekday || $vacation) {
+        //   $ret = true;
+        // }
+
+        // return $ret;
+        
+        // return !$weekday || $vacation ? true : false;
+        return !$weekday || $vacation;
     }
 }

@@ -18,6 +18,19 @@ class Q9
      */
     public function notString(string $str) : string
     {
-        return "";
+        // if (str_starts_with($str, 'not')) {
+        //   return $str;
+        // } else {
+        //   return 'not ' . $str;
+        // }
+
+        // if (strpos($str, 'not') === 0) {
+        //   return $str;
+        // } else {
+        //   return 'not ' . $str;
+        // }
+
+        return strpos($str, 'not') === 0 ? 
+                $str : 'not ' . $str;
     }
 }

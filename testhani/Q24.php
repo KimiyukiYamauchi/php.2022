@@ -18,6 +18,9 @@ class Q24
      */
     public function intMax(int $a, int $b, int $c) : int
     {
-        return 0;
+      // $m = max($a, $b, $c);
+      // return $m;
+
+      return max($a, $b, $c);
     }
 }

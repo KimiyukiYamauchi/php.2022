@@ -22,6 +22,12 @@ class Q6
      */
     public function makes10(int $a, int $b) : bool
     {
-        return false;
+      $ret = false;
+      if ( $a == 10 || $b == 10) {
+        $ret = true;
+      } elseif ($a+$b == 10) {
+        $ret = true;
+      } 
+      return $ret;
     }
 }

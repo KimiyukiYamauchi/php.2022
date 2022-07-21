@@ -17,6 +17,13 @@ class Q3
      */
     public function sumDouble(int $a, int $b) : int
     {
-        return 0;
+
+      if ($a == $b) {
+        return $a*4;
+      } else {
+        return $a + $b;
+      }
+
+      // return $a == $b ? $a*4 : $a + $b;
     }
 }

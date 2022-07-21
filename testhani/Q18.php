@@ -19,6 +19,13 @@ class Q18
      */
     public function in1020(int $a, int $b) : bool
     {
-        return false;
+    //   if ($a >= 10 and $a <= 20 or $b >= 10 and $b <= 20) {
+    //     return true;
+    //   }
+
+    //   return false;
+
+      return $a >= 10 and $a <= 20 
+              or $b >= 10 and $b <= 20;
     }
 }

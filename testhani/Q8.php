@@ -23,6 +23,17 @@ class Q8
      */
     public function posNeg(int $a, int $b, bool $negative) : bool
     {
-        return false;
+
+      $ret = false;
+      if (!$negative) {
+        if ($a * $b < 0 ) {
+          $ret = true;
+        }
+      } else {
+        if ($a < 0 && $b <0) {
+          $ret = true;
+        }
+      }
+      return $ret;
     }
 }

@@ -18,6 +18,16 @@ class Q22
      */
     public function mixStart(string $str) : bool
     {
-        return false;
+      // if (substr($str, 1, 2) == 'ix') {
+      //   return true;
+      // }
+
+      
+      // if (preg_match('/^.ix/', $str)) {
+      //   return true;
+      // }
+      // return false;
+
+        return preg_match('/^.ix/', $str);
     }
 }

@@ -20,7 +20,19 @@ class Q19
      */
     public function hasTeen(int $a, int $b, int $c) : bool
     {
+      // $ret = false;
 
-        return false;
+      // if ($a >= 13 && $a <= 19
+      //     || $b >= 13 && $b <= 19
+      //     || $c >= 13 && $c <= 19) {
+      //   $ret = true;
+      // }
+
+      // return $ret;
+
+      return $a >= 13 && $a <= 19
+              || $b >= 13 && $b <= 19
+              || $c >= 13 && $c <= 19;
+              
     }
 }

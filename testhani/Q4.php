@@ -19,6 +19,14 @@ class Q4
      */
     public function diff21(int $n) : int
     {
-        return 0;
+      // if ($n > 21) {
+      //   return ($n - 21) * 2;
+      // } else {
+      //   return 21 - $n;
+      // }
+
+      return $n > 21 ? ($n - 21) * 2 : 21 - $n;
+
     }
+
 }
