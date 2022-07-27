@@ -21,3 +21,6 @@ INSERT INTO todos (title, is_done) VALUES ('bbb', true);
 INSERT INTO todos (title) VALUES ('ccc');
 
 SELECT * FROM todos;
+
+-- ユーザの作成
+grant all on myapp.*  to 'myappuser'@'localhost' identified by 'myapppass';
