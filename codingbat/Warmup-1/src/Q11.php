@@ -12,7 +12,7 @@ class Q11
      * 
      * @param string $str 対象の文字列
      * 
-     * @return 対象のの先頭文字と末尾の文字を入れ替えた文字列を返す
+     * @return 対象の先頭文字と末尾の文字を入れ替えた文字列を返す
      * 
      */
     public function frontBack(String $str) : string
