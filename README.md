@@ -7,6 +7,7 @@ PHP/WordPressの授業の情報展開用のリポジトリです
   - [言語リファレンス](https://www.php.net/manual/ja/langref.php)
     - [文字列 関数](https://www.php.net/manual/ja/ref.strings.php#ref.strings)
     - [配列 関数](https://www.php.net/manual/ja/ref.array.php)
+    - [正規表現 関数](https://www.php.net/manual/ja/book.pcre.php)
     - [PDO(PHP Data Objects)](https://www.php.net/manual/ja/book.pdo.php)
   - [GDライブラリを有効にする方法](https://sologaku.com/wordpress/images-only-full-size/)
   - [簡単にできる！Visual Studio Code のREST ClientでHTTP接続をテストする！！](https://1kara-hajimeru.com/2020/10/1378/)
