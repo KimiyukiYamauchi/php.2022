@@ -12,7 +12,7 @@ class Q3
      * 
      * @param bool $str 検索対象の文字列
      * 
-     * @return 検索対象の文字列から'xx'が検索されたらtrue、それ以外はfalse
+     * @return 検索対象の文字列から'xx'が検索し、その数を返す。
      * 
      */
     public function  countXX(string $str) : int

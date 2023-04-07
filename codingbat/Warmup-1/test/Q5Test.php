@@ -13,7 +13,7 @@ class Q5Test extends TestCase
     {
         $target = new Q5();
         
-        $result = $target->rrotTrouble($talking, $hour);
+        $result = $target->parrotTrouble($talking, $hour);
         
         $this->assertEquals($expected, $result);
     }

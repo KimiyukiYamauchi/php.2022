@@ -10,7 +10,7 @@ class Q16
      * 　noTriples([1, 1, 2, 2, 2, 1]) → false
      * 　noTriples([1, 1, 1, 2, 2, 2, 1]) → false
      * 
-     * @param array array $nums
+     * @param array $nums
      * 
      * @return 上記の条件に従ってbool値(trueまたはfalse)を返す
      * 

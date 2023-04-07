@@ -8,8 +8,8 @@ class Q11
      * 例えば"xxcaazz"と"xxbaaz"が与えられた場合、"xx"(文字位置0)、"aa"(文字位置3)、
      * "az"(文字位置4)が共通なので、3を返す
      * 例：
-     * 　stringMatch("xxcaazz", "xxbaaz") → 3
-     * 　stringMatch("abc", "abc") → 2
+     * 　stringMatch("xxcaazz", "xxbaaz") → 3 ("xx", "aa", "az")
+     * 　stringMatch("abc", "abc") → 2 ("ab", "bc")
      * 　stringMatch("abc", "axc") → 0
      * 
      * @param array string $a string $b

@@ -3,7 +3,7 @@
 @REM vendor\bin\phpunit test\Q2Test.php
 @REM vendor\bin\phpunit test\Q3Test.php
 @REM vendor\bin\phpunit test\Q4Test.php
-@REM vendor\bin\phpunit test\Q5Test.php
+vendor\bin\phpunit test\Q5Test.php
 @REM vendor\bin\phpunit test\Q6Test.php
 @REM vendor\bin\phpunit test\Q7Test.php
 @REM vendor\bin\phpunit test\Q8Test.php
@@ -29,4 +29,4 @@
 @REM vendor\bin\phpunit test\Q28Test.php
 @REM vendor\bin\phpunit test\Q29Test.php
 @REM vendor\bin\phpunit test\Q30Test.php
-vendor\bin\phpunit test\Q31Test.php
+@REM vendor\bin\phpunit test\Q31Test.php
