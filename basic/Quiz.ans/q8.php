@@ -14,26 +14,26 @@
   */
 function bigDiff(array $nums) : int
 {
-  // $len = count($nums);
-  // if ($len == 1) {
-  //   return 0;
-  // }
+  $len = count($nums);
+  if ($len == 1) {
+    return 0;
+  }
 
-  // for ($i=0, $min=PHP_INT_MAX, $max=PHP_INT_MIN; $i<$len; $i+=1) {
-  //   if ($min > $nums[$i]) {
-  //     $min = $nums[$i];
-  //   }
-  //   if ($max < $nums[$i]) {
-  //     $max = $nums[$i];
-  //   }
-  // }
-
-  // return $max - $min;
-
-  $min = min($nums);
-  $max = max($nums);
+  for ($i=0, $min=PHP_INT_MAX, $max=PHP_INT_MIN; $i<$len; $i+=1) {
+    if ($min > $nums[$i]) {
+      $min = $nums[$i];
+    }
+    if ($max < $nums[$i]) {
+      $max = $nums[$i];
+    }
+  }
 
   return $max - $min;
+
+  // $min = min($nums);
+  // $max = max($nums);
+
+  // return $max - $min;
 }
 
 $items = [
@@ -49,6 +49,9 @@ $items = [
   'bigDiff([5, 1, 6, 1, 9, 9]) → 8' => [[5, 1, 6, 1, 9, 9], 8],
   'bigDiff([7, 6, 8, 5]) → 3' => [[7, 6, 8, 5], 3],
   'bigDiff([7, 7, 6, 8, 5, 5, 6]) → 3' => [[7, 7, 6, 8, 5, 5, 6], 3],
+  'bigDiff([-7, -7, -6, -8, -5, -5, -6]) → 3' => [[-7, -7, -6, -8, -5, -5, -6], 3],
+  // 'bigDiff([PHP_INT_MIN, 0]) → PHP_INT_MIN' => [[PHP_INT_MIN, 0], PHP_INT_MAX],
+  // 'bigDiff([PHP_INT_MIN, PHP_INT_MIN-1]) → 1' => [[PHP_INT_MIN, PHP_INT_MIN-1],1],
 ];
 $message = "";
 
