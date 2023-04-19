@@ -19,7 +19,10 @@ function bigDiff(array $nums) : int
     return 0;
   }
 
-  for ($i=0, $min=PHP_INT_MAX, $max=PHP_INT_MIN; $i<$len; $i+=1) {
+  $min=PHP_INT_MAX;
+  $max=PHP_INT_MIN;
+
+  for ($i=0; $i<$len; $i+=1) {
     if ($min > $nums[$i]) {
       $min = $nums[$i];
     }
