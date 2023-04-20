@@ -13,7 +13,7 @@
   * @return int 上記の処理によって作成された連想配列を返す
   * 
   */
-function word1(array $map) : array
+function wordCount(array $map) : array
 {
   $ret = [];
   $len = count($map);
@@ -42,7 +42,7 @@ $items = [
 $message = "";
 
 foreach ($items as $item => $params) {
-  $ret = word1($params[0]);
+  $ret = wordCount($params[0]);
   if ($ret != $params[1]) {
     $message .= $item . ': ' . disp($ret) .  '(実際の値)' . PHP_EOL;
   }
