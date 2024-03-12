@@ -18,31 +18,6 @@ class Q32
      */
     public function withoutX2(string $str) : string
     {
-        $len = strlen($str);
-
-        // 文字列長が 0の場合はそのまま返す
-        if ($len < 1) {
-            return $str;
-        }
-        
-        // 先頭が 'x' でないなら １文字目を取得
-        $result = '';
-        if ($str[0] !== 'x') {
-            $result .= $str[0];
-        }
-
-        // 文字列長が1の場合はここまでの値を返す
-        if ($len == 1) {
-            return $result;
-        }
-        
-        // 2 文字目が 'x' なら3文字目以降を取得
-        if ($str[1] === 'x') {
-            $result .= substr($str, 2);
-        } else {
-            $result .= substr($str, 1);
-        }
-        
-        return $result;
+        return '';
     }
 }

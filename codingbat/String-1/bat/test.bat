@@ -28,5 +28,5 @@
 @REM vendor\bin\phpunit test\Q28Test.php
 @REM vendor\bin\phpunit test\Q29Test.php
 @REM vendor\bin\phpunit test\Q30Test.php
-vendor\bin\phpunit test\Q31Test.php
-@REM vendor\bin\phpunit test\Q32Test.php
+@REM vendor\bin\phpunit test\Q31Test.php
+vendor\bin\phpunit test\Q32Test.php
