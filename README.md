@@ -23,5 +23,6 @@ PHP/WordPressの授業の情報展開用のリポジトリです
   - [【xammp】mysqlが起動しない時の対処](https://qiita.com/gone0021/items/1240f857776c6bb620b6)
   - [phpMyAdminのSQL/CSVのエクスポート機能が「失敗 ネットワークエラー」となる時の解決方法](https://www.petitmonte.com/linux/phpmyadmin-failed-network-err.html)
   - [mysqldumpまとめ](https://qiita.com/PlanetMeron/items/3a41e14607a65bc9b60c)
+  - [取得するデータの行数の上限を設定する(LIMIT句)](https://www.javadrive.jp/mysql/select/index12.html)
 - その他
   - [CodingBat code practice](https://codingbat.com/java)
