@@ -3,9 +3,9 @@
 class Q1 
 {
     /**
-     * 遅起きしてもよいかを返す関数
-     *  遅起きしてもよいならtrueを返す
-     *  遅起きできないならfalseを返す
+     * 引数の $weekday は、平日であれば true で、パラメーターの $vacation は、
+     * 休暇中であれば true です。平日ではないか、休暇中であれば寝坊します。
+     * 寝坊する場合は true を返します。
      * 
      * @param bool $weekday 平日であればtrue、土日はfalse
      * @param bool $vacation 祝日はtrue、そうでなければfalse
