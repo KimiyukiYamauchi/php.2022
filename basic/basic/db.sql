@@ -8,7 +8,7 @@ create table books (
   title varchar(255),
   pub_year varchar(4),
   ISBN varchar(20)
-);
+) DEFAULT CHARACTER SET=utf8;
 
 -- phpMyadminを使って、data.csvをインポート
 
