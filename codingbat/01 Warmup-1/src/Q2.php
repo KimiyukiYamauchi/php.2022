@@ -13,6 +13,7 @@ class Q2
      * @param bool $bSmile bのサルが笑っていればtrue、そうでなければfalse
      * 
      * @return トラブルを起こす場合はtrue、そうでなければfalse
+     * 
      * ２匹のサルが両方とも笑っているか、両方とも笑っていなければトラブルを起こす
      * 例：
      * 　monkeyTrouble(true, true) → true

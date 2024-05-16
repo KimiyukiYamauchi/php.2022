@@ -3,15 +3,16 @@
 class Q1 
 {
     /**
-     * 引数の $weekday は、平日であれば true で、パラメーターの $vacation は、
+     * 引数の $weekday は、平日であれば true で、引数の $vacation は、
      * 休暇中であれば true です。平日ではないか、休暇中であれば寝坊します。
      * 寝坊する場合は true を返します。
      * 
      * @param bool $weekday 平日であればtrue、土日はfalse
      * @param bool $vacation 祝日はtrue、そうでなければfalse
+     * 
      * $weekdayがfalseまたは$vacationがtrueなら遅起きしてよい
      * 
-     * @return 遅起きしてもよければtrue、そうでなければfalse
+     * @return 寝坊してもよければtrue、そうでなければfalse
      * 
      * 
      * 例：
