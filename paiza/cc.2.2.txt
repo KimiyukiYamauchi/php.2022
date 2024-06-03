@@ -1,0 +1,13 @@
+12
+make 2742 makoto
+getnum 1
+make 2782 taro
+getname 1
+getname 2
+change_num 2 9927
+change_name 1 mako
+getnum 2
+make 31 meu
+change_name 3 meumeu
+getnum 3
+getname 1

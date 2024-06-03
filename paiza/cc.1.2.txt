@@ -1,0 +1,8 @@
+7
+make 2742 mako
+getnum 1
+make 2782 taisei
+getname 2
+make 31 megumi
+getname 1
+getname 3

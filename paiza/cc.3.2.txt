@@ -1,0 +1,15 @@
+7 7
+62
+1
+29
+33
+79
+15
+91
+2 alcohol 3134
+7 alcohol 2181
+6 softdrink 4631
+3 alcohol 3120
+4 softdrink 4004
+6 food 1468
+6 alcohol 1245

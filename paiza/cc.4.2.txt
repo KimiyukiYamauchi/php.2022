@@ -1,0 +1,16 @@
+5 10
+1
+13
+31
+74
+34
+1 food 1088
+4 alcohol 3210
+1 alcohol 599
+2 alcohol 602
+2 softdrink 4375
+4 food 1752
+2 0
+5 alcohol 4565
+3 0
+2 0

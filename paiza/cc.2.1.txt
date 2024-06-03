@@ -1,0 +1,5 @@
+4
+make 3 nana
+getnum 1
+change_num 1 5
+getnum 1
