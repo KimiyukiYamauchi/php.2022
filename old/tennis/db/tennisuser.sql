@@ -1,0 +1,1 @@
+grant all on tennis.* to 'tennisuser'@'localhost' identified by 'password';

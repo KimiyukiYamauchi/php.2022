@@ -1,0 +1,1 @@
+grant all on myapp.* to 'myappuser'@'localhost' identified by 'myapppass';

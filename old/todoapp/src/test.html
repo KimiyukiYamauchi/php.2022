@@ -1,0 +1,9 @@
+<script type="module">
+  import { EventEmitter } from './EventEmitter.js';
+  const event = new EventEmitter();
+  // イベントリスナー(コールバック関数)を登録
+  event.addEventListener('test-event', () => console.log('One!'));
+  event.addEventListener('test-event', () => console.log('Tow!'));
+  // イベントをディスパッチする
+  event.emit('test-event');
+</script>
